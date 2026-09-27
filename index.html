@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relax Fit | Posilňovňa Veľké Kapušany</title>
+  <meta id="metaDesc" name="description" content="Relax Fit vo Veľkých Kapušanoch je rodinná posilňovňa s priateľskou atmosférou, kde sa každý cíti ako doma. Pozri si permanentky, otváracie hodiny a polohu.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Relax Fit">
+  <meta property="og:title" id="ogTitle" content="Relax Fit | Posilňovňa vo Veľkých Kapušanoch">
+  <meta property="og:description" id="ogDesc" content="Rodinná posilňovňa vo Veľkých Kapušanoch. Pozrite si cenník, otváracie hodiny a cestu k nám.">
+  <meta property="og:url" content="https://oeasen.github.io/relaxgym-template/">
+  <meta property="og:image" content="https://oeasen.github.io/relaxgym-template/images/gym-golden-hour.png">
+  <meta property="og:image:width" content="1448">
+  <meta property="og:image:height" content="1086">
+  <meta property="og:image:alt" content="Interiér posilňovne Relax Fit">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitterTitle" content="Relax Fit | Posilňovňa vo Veľkých Kapušanoch">
+  <meta name="twitter:description" id="twitterDesc" content="Rodinná posilňovňa vo Veľkých Kapušanoch. Pozrite si cenník, otváracie hodiny a cestu k nám.">
+  <meta name="twitter:image" content="https://oeasen.github.io/relaxgym-template/images/gym-golden-hour.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main" data-i18n="skip">Preskočiť na obsah</a>
+
+  <header class="topbar">
+    <div class="topbar-in">
+      <a class="logo" href="#home" data-i18n-aria="logo_aria" aria-label="Relax Fit, domov">Relax Fit</a>
+
+      <nav class="nav" id="nav" data-i18n-aria="nav_aria" aria-label="Hlavná ponuka">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" data-i18n="menu">Menu</button>
+        <ul id="navList">
+          <li><a href="#home" class="active" data-i18n="nav_home">Domov</a></li>
+          <li><a href="#about" data-i18n="nav_about">O nás</a></li>
+          <li><a href="#location" data-i18n="nav_location">Poloha</a></li>
+          <li><a href="#subscriptions" data-i18n="nav_subs">Permanentky</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="topbar-right">
+        <span class="status" id="open-status" data-i18n="status_default">Otváracie hodiny nižšie</span>
+        <a class="pill" href="#subscriptions" data-i18n="pill">Pozrieť cenník</a>
+      </div>
+
+      <div class="lang" role="group" data-i18n-aria="lang_aria" aria-label="Jazyk">
+        <button type="button" class="lang-btn" data-lang="sk" aria-pressed="true" lang="sk" title="Slovensky">SK</button>
+        <button type="button" class="lang-btn" data-lang="hu" aria-pressed="false" lang="hu" title="Magyarul">HU</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- DOMOV -->
+    <section class="section hero-wrap" id="home">
+      <div class="hero">
+        <img class="hero-img" src="images/gym-golden-hour.png" data-i18n-alt="hero_alt" alt="Relax Fit zvnútra: legpress, kladkové stroje a drevené trámy nad hlavou" width="1448" height="1086">
+        <div class="hero-shade"></div>
+
+        <div class="hero-text">
+          <h1 class="hero-title"><span data-i18n="hero_a">Rodinná posilňovňa,</span> <span class="hl" data-i18n="hero_b">kde sa každý cíti ako doma</span></h1>
+          <p class="hero-sub" data-i18n="hero_sub">U nás nájdete stroje, voľné váhy aj priestor na pohodlný tréning. Či prídete sami, s priateľmi alebo s rodinou, radi vás privítame.</p>
+
+          <ul class="checks">
+            <li data-i18n="check1">Voľné váhy, stroje a kardio zóna</li>
+            <li data-i18n="check2">Otvorené 7 dní v týždni</li>
+            <li data-i18n="check3">Viac priestoru na poschodí</li>
+            <li data-i18n="check4">Jednorazový vstup od 5,50 €</li>
+          </ul>
+
+          <div class="actions">
+            <a class="btn" href="#subscriptions" data-i18n="btn_subs">Pozrieť cenník</a>
+            <a class="btn btn-ghost" href="#location" data-i18n="btn_find">Ako sa k nám dostať</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker" data-i18n-aria="ticker_aria" aria-label="Naše plusy">
+        <div class="ticker-track">
+          <ul>
+            <li data-i18n="t1">Rodinná atmosféra</li>
+            <li data-i18n="t2">Otvorené 7 dní v týždni</li>
+            <li data-i18n="t3">Vstup od 5,50 €</li>
+            <li data-i18n="t4">Viac priestoru na poschodí</li>
+            <li data-i18n="t5">Radi vám poradíme na recepcii</li>
+            <li data-i18n="t6">Vítame aj začiatočníkov</li>
+            <li data-i18n="t7">Viac než posilňovňa. Komunita.</li>
+            <li data-i18n="t8">Miesto aj pre vás</li>
+          </ul>
+          <ul aria-hidden="true">
+            <li data-i18n="t1">Rodinná atmosféra</li>
+            <li data-i18n="t2">Otvorené 7 dní v týždni</li>
+            <li data-i18n="t3">Vstup od 5,50 €</li>
+            <li data-i18n="t4">Viac priestoru na poschodí</li>
+            <li data-i18n="t5">Radi vám poradíme na recepcii</li>
+            <li data-i18n="t6">Vítame aj začiatočníkov</li>
+            <li data-i18n="t7">Viac než posilňovňa. Komunita.</li>
+            <li data-i18n="t8">Miesto aj pre vás</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="inside">
+        <h2 class="h2" data-i18n="inside_h">V posilňovni</h2>
+        <div class="inside-grid">
+          <div class="tile">
+            <h3 data-i18n="in1_h">Voľné váhy</h3>
+            <p data-i18n="in1_p">Jednoručné činky, lavičky a veľké činky na tréning podľa vašich cieľov.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="in2_h">Stroje</h3>
+            <p data-i18n="in2_p">Legpress, Smithov stroj aj kladkové stanice. Ak potrebujete poradiť s nastavením, radi vám pomôžeme.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="in3_h">Kardio</h3>
+            <p data-i18n="in3_p">Bežecké pásy a eliptické trenažéry na rozcvičku aj vytrvalostný tréning.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="in4_h">Obchod na recepcii</h3>
+            <p data-i18n="in4_p">Opasky, trhačky či proteínové tyčinky nájdete na recepcii.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O NÁS -->
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="text">
+          <h2 class="h2" data-i18n="about_h">Miesto, kde sa dobre trénuje</h2>
+          <p data-i18n="about_p1">Veríme, že dobrá posilňovňa je viac než len vybavenie. V Relax Fit nájdete priestor, kde sa môžete sústrediť na svoj tréning a cítiť sa príjemne. Kvalitné stroje, drevené trámy, tehlové steny a priateľská atmosféra vytvárajú miesto, kam sa radi vrátite.</p>
+          <p data-i18n="about_p2">Nezáleží na tom, či začínate, alebo cvičíte už roky. Ak potrebujete pomôcť so strojom alebo sa chcete poradiť o tréningu, obráťte sa na náš tím na recepcii.</p>
+          <p data-i18n="about_p3">Ďalšie vybavenie nájdete aj na poschodí. Viac priestoru oceníte najmä počas rušnejších podvečerov.</p>
+          <blockquote data-i18n="about_q">Príďte si zacvičiť sami alebo s priateľmi. U nás ste vítaní.</blockquote>
+        </div>
+        <figure class="photo">
+          <img src="images/gym-hall-sunset.png" data-i18n-alt="about_alt" alt="Hlavná hala Relax Fit s bežeckými pásmi, jednorúčkami a strojmi na kotúče v teplom večernom svetle" width="1448" height="1086" loading="lazy">
+          <figcaption data-i18n="about_cap">Priestor na váš tréning.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- KOMUNITA -->
+    <section class="section community" id="community" data-nav="#about">
+      <div class="wrap">
+        <h2 class="community-title"><span data-i18n="fam_h1">Viac než posilňovňa.</span> <span class="community-title-b" data-i18n="fam_h2">Komunita.</span></h2>
+        <div class="community-grid">
+          <p class="say"><span class="say-a" data-i18n="fam1_a">Každý niekde začína.</span> <span class="say-b" data-i18n="fam1_b">Začnite u nás.</span></p>
+          <p class="say"><span class="say-a" data-i18n="fam2_a">Trénujte vlastným tempom.</span> <span class="say-b" data-i18n="fam2_b">Radi vás privítame.</span></p>
+          <p class="say"><span class="say-a" data-i18n="fam3_a">Každý tréning sa počíta.</span> <span class="say-b" data-i18n="fam3_b">Priestor máme aj pre vás.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRAVIDLÁ -->
+    <section class="section alt" id="rules" data-nav="#about">
+      <div class="wrap">
+        <h2 class="h2" data-i18n="rules_h">Pravidlá posilňovne</h2>
+        <p class="lede" data-i18n="rules_lede">Niekoľko jednoduchých pravidiel pre príjemný a bezpečný tréning.</p>
+        <div class="rules-grid">
+          <div class="tile">
+            <h3 data-i18n="r1_h">Telefón odložte počas cvičenia</h3>
+            <p data-i18n="r1_p">Pri cvičení sa sústreďte na pohyb a bezpečnosť. Telefónne hovory vybavte mimo cvičebnej zóny.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="r2_h">Vracajte závažia na miesto</h3>
+            <p data-i18n="r2_p">Po tréningu vráťte kotúče a jednoručné činky na ich miesto.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="r3_h">Utrite použité vybavenie</h3>
+            <p data-i18n="r3_p">Po cvičení utrite lavičku alebo stroj. Utierky a sprej nájdete pri strojoch.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="r4_h">So závažím zaobchádzajte opatrne</h3>
+            <p data-i18n="r4_p">Závažia odkladajte kontrolovane, aby ste chránili vybavenie aj ľudí okolo seba.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="r5_h">Dohodnite sa na striedaní</h3>
+            <p data-i18n="r5_p">Ak je stroj obsadený, skúste sa s ostatnými dohodnúť na striedaní medzi sériami.</p>
+          </div>
+          <div class="tile">
+            <h3 data-i18n="r6_h">Neváhajte sa opýtať</h3>
+            <p data-i18n="r6_p">Ak si nie ste istí, ako používať stroj, náš tím vám rád poradí.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POKYNY PRE ZÁKAZNÍKOV -->
+    <section class="section" id="pokyny" data-nav="#about">
+      <div class="wrap">
+        <h2 class="h2" data-i18n="pokyny_h">Pokyny pre zákazníkov</h2>
+        <div class="pokyny-grid">
+          <div class="pokyny-col">
+            <ol class="pokyny-list">
+              <li data-i18n="po1">Pri vstupe sa prezujte a obuv si odložte do uzamykateľnej skrinky vo vstupnom priestore.</li>
+              <li data-i18n="po2">Na recepcii dostanete vstupenku a kľúč od skrinky v šatni. Môžete si tu zakúpiť aj nápoje.</li>
+              <li data-i18n="po3">V šatni sa prezlečte do športového oblečenia a obujte si čistú športovú obuv.</li>
+              <li data-i18n="po4">Cvičíte individuálne a na vlastnú zodpovednosť. Ak potrebujete pomoc, obráťte sa na personál.</li>
+              <li data-i18n="po5">Pri cvičení používajte uterák na utieranie potu a podkladajte si ním použité stroje.</li>
+            </ol>
+            <p class="pokyny-warning" data-i18n="po_warning">Cvičenie bez uteráka a športovej obuvi nie je povolené.</p>
+            <p class="pokyny-towel" data-i18n="po_towel">Uterák si môžete za poplatok zapožičať na recepcii podľa aktuálneho cenníka.</p>
+          </div>
+          <div class="pokyny-col">
+            <ul class="pokyny-extras">
+              <li data-i18n="po_extra1">Pri prvej návšteve vám personál rád ukáže, ako sa stroje používajú.</li>
+              <li data-i18n="po_extra2">Činky po použití vráťte na vyhradené miesto.</li>
+            </ul>
+            <p class="pokyny-health" data-i18n="po_health">Ak máte zdravotné ťažkosti alebo sa zotavujete po úraze, pred začiatkom cvičenia sa poraďte so svojím lekárom a informujte personál o prípadných obmedzeniach.</p>
+            <ul class="pokyny-extras">
+              <li data-i18n="po_liability">Pri nedodržaní pokynov na bezpečné cvičenie prevádzkovateľ nezodpovedá za prípadné zdravotné ťažkosti.</li>
+              <li data-i18n="po_damage">Ak zistíte poškodenie stroja, oznámte to personálu. Zabezpečíme jeho opravu.</li>
+              <li data-i18n="po_belongings">Prevádzkovateľ nezodpovedá za stratu osobných vecí. Odkladajte si ich do skriniek.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POLOHA -->
+    <section class="section alt" id="location">
+      <div class="wrap">
+        <h2 class="h2" data-i18n="loc_h">Nájdete nás tu</h2>
+        <div class="location">
+          <div class="map">
+            <iframe src="https://www.google.com/maps?q=48.5547615,22.0788332&z=16&output=embed" data-i18n-title="map_title" title="Mapa s polohou Relax Fit" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+
+          <div class="info">
+            <h3 data-i18n="addr_h">Adresa</h3>
+            <p class="address">Relax Fit<br>Zoltána Fábryho 100<br>079 01 Veľké Kapušany</p>
+            <p class="maplink"><a href="https://www.google.com/maps/place/ReLax+FIT,+s.r.o./@48.5547615,22.0788332,17z/data=!4m6!3m5!1s0x473920e9bb078f7d:0x53d8d8810871027e!8m2!3d48.5547615!4d22.0788332!16s%2Fg%2F11bzx4kwt6" target="_blank" rel="noopener" data-i18n="maplink">Otvoriť v Mapách Google</a></p>
+
+            <h3 data-i18n="hours_h">Otváracie hodiny</h3>
+            <table class="hours" id="hours">
+              <tbody>
+                <tr data-day="1" data-hours="09:00-12:00,13:00-20:00"><th data-i18n="day1">Pondelok</th><td data-i18n="hours_wd">9:00 až 12:00 a 13:00 až 20:00</td></tr>
+                <tr data-day="2" data-hours="09:00-12:00,13:00-20:00"><th data-i18n="day2">Utorok</th><td data-i18n="hours_wd">9:00 až 12:00 a 13:00 až 20:00</td></tr>
+                <tr data-day="3" data-hours="09:00-12:00,13:00-20:00"><th data-i18n="day3">Streda</th><td data-i18n="hours_wd">9:00 až 12:00 a 13:00 až 20:00</td></tr>
+                <tr data-day="4" data-hours="09:00-12:00,13:00-20:00"><th data-i18n="day4">Štvrtok</th><td data-i18n="hours_wd">9:00 až 12:00 a 13:00 až 20:00</td></tr>
+                <tr data-day="5" data-hours="09:00-12:00,13:00-20:00"><th data-i18n="day5">Piatok</th><td data-i18n="hours_wd">9:00 až 12:00 a 13:00 až 20:00</td></tr>
+                <tr data-day="6" data-hours="13:00-20:00"><th data-i18n="day6">Sobota</th><td data-i18n="hours_sat">13:00 až 20:00</td></tr>
+                <tr data-day="0" data-hours="16:00-20:00"><th data-i18n="day0">Nedeľa</th><td data-i18n="hours_sun">16:00 až 20:00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERMANENTKY -->
+    <section class="section" id="subscriptions">
+      <div class="wrap">
+      <h2 class="h2" data-i18n="subs_h">Permanentky</h2>
+      <p class="lede" data-i18n="subs_lede">Vyberte si vstup alebo permanentku, ktorá vám vyhovuje.</p>
+
+      <!-- FITNESS PASSES — main row -->
+      <p class="pricing-category" data-i18n="cat_fitness">Fitness</p>
+      <div class="pricing-main">
+
+        <article class="pcard">
+          <span class="pcard-tag" data-i18n="tag_single">Jednorazový</span>
+          <p class="pcard-name" data-i18n="p1_h">Jednorazový vstup FITNESS</p>
+          <div class="pcard-price-wrap">
+            <span class="pcard-amount">5,50</span>
+            <span class="pcard-currency">€</span>
+          </div>
+          <ul class="pcard-perks">
+            <li data-i18n="p1_a">Jedna návšteva kedykoľvek počas otváracích hodín</li>
+            <li data-i18n="p1_b">Flabélos zdarma</li>
+          </ul>
+        </article>
+
+        <article class="pcard">
+          <span class="pcard-tag" data-i18n="tag_monthly">Mesačná</span>
+          <p class="pcard-name" data-i18n="p2_h">Mesačná permanentka FITNESS</p>
+          <div class="pcard-price-wrap">
+            <span class="pcard-amount">33</span>
+            <span class="pcard-currency">€</span>
+          </div>
+          <ul class="pcard-perks">
+            <li data-i18n="p2_a">Neobmedzený vstup + flabélos zdarma</li>
+            <li data-i18n="p2_b">Aktuálne benefity vám radi predstavíme na recepcii</li>
+          </ul>
+        </article>
+
+        <article class="pcard pcard--featured">
+          <span class="pcard-badge" data-i18n="p3_flag">Kombinovaná</span>
+          <span class="pcard-tag" data-i18n="tag_monthly">Mesačná</span>
+          <p class="pcard-name" data-i18n="p3_h">Kombinovaná mesačná permanentka</p>
+          <div class="pcard-price-wrap">
+            <span class="pcard-amount">38</span>
+            <span class="pcard-currency">€</span>
+          </div>
+          <ul class="pcard-perks">
+            <li data-i18n="p3_a">Neobmedzený vstup, flabélos a aktuálne benefity</li>
+            <li data-i18n="p3_b">60 minút v turbosoláriu (0,13 €/min)</li>
+          </ul>
+        </article>
+
+        <article class="pcard">
+          <span class="pcard-tag" data-i18n="tag_monthly">Mesačná</span>
+          <p class="pcard-name" data-i18n="p4_h">Permanentka pre študentov a seniorov</p>
+          <div class="pcard-price-wrap">
+            <span class="pcard-amount">22</span>
+            <span class="pcard-currency">€</span>
+          </div>
+          <ul class="pcard-perks">
+            <li data-i18n="p4_a">Neobmedzený vstup a flabélos zdarma</li>
+            <li data-i18n="p4_b">Pre študentov a seniorov</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <!-- ADD-ONS row -->
+      <p class="pricing-category pricing-category--addons" data-i18n="cat_addons">Doplnkové služby</p>
+      <div class="pricing-addons">
+
+        <article class="addon-card">
+          <div class="addon-icon">☀</div>
+          <div class="addon-body">
+            <p class="addon-name" data-i18n="p6_h">Mesačná permanentka – solárium</p>
+            <p class="addon-detail" data-i18n="p6_a">60 minút za 30 € (0,50 €/min)</p>
+            <p class="addon-detail" data-i18n="p6_b">Jednorazový vstup: 0,95 €/min (žetóny po 3 minútach)</p>
+          </div>
+          <div class="addon-price">30 €</div>
+        </article>
+
+        <article class="addon-card">
+          <div class="addon-icon">⚡</div>
+          <div class="addon-body">
+            <p class="addon-name" data-i18n="p7_h">Mesačná permanentka – flabélos</p>
+            <p class="addon-detail" data-i18n="p7_a">Neobmedzené využívanie flabélosu</p>
+            <p class="addon-detail" data-i18n="p7_b">Jednorazový vstup: 3,50 € / 10 minút</p>
+          </div>
+          <div class="addon-price">20 €</div>
+        </article>
+
+        <article class="addon-card">
+          <div class="addon-icon">5×</div>
+          <div class="addon-body">
+            <p class="addon-name" data-i18n="p5_h">5-vstupová mesačná permanentka</p>
+            <p class="addon-detail" data-i18n="p5_a">5 vstupov v danom mesiaci</p>
+            <p class="addon-detail" data-i18n="p5_b">Flabélos zdarma</p>
+          </div>
+          <div class="addon-price">16 €</div>
+        </article>
+
+      </div>
+
+      <p class="note" data-i18n="subs_note">Permanentky si môžete zakúpiť na recepcii v hotovosti alebo kartou. Cenník platí pre rok 2026.</p>
+      </div>
+    </section>
+
+    <!-- ČASTÉ OTÁZKY -->
+    <section class="section alt" id="faq" data-nav="#contact">
+      <div class="wrap faq-wrap">
+        <h2 class="h2" data-i18n="faq_h">Časté otázky</h2>
+        <div class="faq">
+          <details>
+            <summary data-i18n="q1">Treba sa vopred objednať?</summary>
+            <p data-i18n="a1">Nie. Stačí prísť počas otváracích hodín. Vstup aj permanentku vybavíte na recepcii.</p>
+          </details>
+          <details>
+            <summary data-i18n="q2">Je posilňovňa vhodná aj pre začiatočníkov?</summary>
+            <p data-i18n="a2">Áno. Ak si nie ste istí, ako používať stroj, radi vám pomôžeme na recepcii.</p>
+          </details>
+          <details>
+            <summary data-i18n="q3">Máte sprchy a šatne?</summary>
+            <p data-i18n="a3">Áno, k dispozícii sú šatne aj sprchy.</p>
+          </details>
+          <details>
+            <summary data-i18n="q4">Môžem platiť kartou?</summary>
+            <p data-i18n="a4">Áno. Na recepcii môžete platiť kartou aj v hotovosti.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <h2 class="h2" data-i18n="contact_h">Napíšte nám</h2>
+        <div class="contact">
+          <div class="details">
+            <h3 data-i18n="call_h">Zavolajte alebo napíšte</h3>
+            <p><a href="tel:+421566281579">056 628 15 79</a></p>
+            <p><a href="mailto:info@relaxfit.sk">info@relaxfit.sk</a></p>
+            <h3 data-i18n="follow_h">Sledujte nás</h3>
+            <p><a href="https://www.instagram.com/relaxfit_velke_kapusany/" target="_blank" rel="noopener">Instagram</a></p>
+            <p><a href="https://www.facebook.com/relaxfitkapusany/" target="_blank" rel="noopener">Facebook</a></p>
+          </div>
+
+          <form class="form" id="contactForm" novalidate>
+            <label for="name" data-i18n="f_name">Vaše meno</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <span class="error" data-for="name"></span>
+
+            <label for="email" data-i18n="f_email">Váš e-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="error" data-for="email"></span>
+
+            <label for="message" data-i18n="f_msg">Správa</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error" data-for="message"></span>
+
+            <p class="form-hint" data-i18n="f_hint">Po kliknutí sa otvorí váš e-mailový program, v ktorom správu odošlete.</p>
+            <button class="btn" type="submit" data-i18n="f_send">Pripraviť e-mail</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="foot-title">Relax Fit</p>
+    <p>&copy; <span id="year">2026</span> Relax Fit. <span data-i18n="rights">Všetky práva vyhradené.</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
